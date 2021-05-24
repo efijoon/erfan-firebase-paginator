@@ -1,0 +1,69 @@
+{
+  "_from": "firebase-paginator",
+  "_id": "firebase-paginator@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-LTLieu7sgiaA9luj7EAxS4FR6GwUFQlbSZtH+Vjq21kVDNgNnXja9wbLWAkQyiUEGOsZgB/6XG7GTvNiHTsdcg==",
+  "_location": "/firebase-paginator",
+  "_phantomChildren": {
+    "stream-consume": "0.1.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "erfan-firebase-paginator",
+    "name": "erfan-firebase-paginator",
+    "escapedName": "erfan-firebase-paginator",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/erfan-firebase-paginator/-/erfan-firebase-paginator-1.1.2.tgz",
+  "_shasum": "4acc48df5c8d537f25210d260d675cd06b5d7a94",
+  "_spec": "erfan-firebase-paginator",
+  "_where": "C:\\Users\\DourAndish\\Desktop\\Desktop\\Parci\\Parci-Panel",
+  "author": {
+    "name": "Erfan Poursina",
+    "email": "erfanpoorsina@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/efijoon/erfan-firebase-paginator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.13.1",
+    "firebase-admin": "^4.2.1"
+  },
+  "deprecated": false,
+  "description": "Fixed Pagination for Firebase",
+  "devDependencies": {
+    "firebase": "^3.2.1",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "polymer-cli": "^1.6.0",
+    "tape": "^4.6.0"
+  },
+  "homepage": "https://github.com/efijoon/erfan-firebase-paginator",
+  "keywords": [
+    "firebase",
+    "pagination"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "erfan-firebase-paginator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efijoon/erfan-firebase-paginator.git"
+  },
+  "scripts": {
+    "bundle": "parcel es-module.html",
+    "serve": "polymer serve -p 8080",
+    "start": "npm run serve",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "version": "1.1.2"
+}
